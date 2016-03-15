@@ -77,5 +77,43 @@ print(str[2:3]) # "p"
       "Daniel": 6 }*/
   ```
   
-3. Create function that takes in a 
+3. Create function that takes in a dictionary as a parameter. It should return a list containing all the values of only the keys that are palindromes. For example, {"racecar": "ferrari", "bulls": "basketball", "pip": "cool"} should return ["ferrari", "cool"]
+
+4. Define a function that takes a long sentence as its parameter. It should first create a key value pairs of each word to its length. And after that, return the list of the keys' values if the keys' length are greater than 4. 
+
+5. Make a function that takes a sentence and returns a dictionary with key value pairs of words to how many times it occured in the sentence. Before 
+
+```python
+#For example, if the string is "I like apples because apples are so good. I heard oranges are so good too."
+#It should return a dictionary like this:
+{ "I": 2,
+  "like": 1,
+  "apples": 2,
+  "because": 1,
+  "are": 2,
+  "so": 2,
+  "good": 2,
+  "heard": 1,
+  "oranges": 1,
+  "too": 1 }
+  
+  #This one is tricky and hard but it's really cool.
+```
+
+##### Inputs 
+
+1. Write a function that prompts the user for an input and returns true or false depending on if the the input is a palindrome. (Hint: You can use your pre written functions for the above problems)
+
+2. Write a function that prompts the user for a number and returns true if the number is even and false otherwise. 
+
+3. Write a function that prompts the user for an integer input and returns a list of all even numbers up to that integer. Try to use your prewritten functions with this. 
+
+4. Write a function that prompts the user for a string and returns the reversed string back. Again, try to use the functions you have written for it. 
+
+##### HYBRID
+
+Write a function that prompts user for input 5 times and saves all those results in a list. Then, 
+
+
+
 
