@@ -81,24 +81,7 @@ print(str[2:3]) # "p"
 
 4. Define a function that takes a long sentence as its parameter. It should first create a key value pairs of each word to its length. And after that, return the list of the keys' values if the keys' length are greater than 4. 
 
-5. Make a function that takes a sentence and returns a dictionary with key value pairs of words to how many times it occured in the sentence. Before 
 
-```python
-#For example, if the string is "I like apples because apples are so good. I heard oranges are so good too."
-#It should return a dictionary like this:
-{ "I": 2,
-  "like": 1,
-  "apples": 2,
-  "because": 1,
-  "are": 2,
-  "so": 2,
-  "good": 2,
-  "heard": 1,
-  "oranges": 1,
-  "too": 1 }
-  
-  #This one is tricky and hard but it's really cool.
-```
 
 ##### Inputs 
 
@@ -114,12 +97,29 @@ print(str[2:3]) # "p"
 
 1. Write a function that prompts user for input until the user has provided 5 strings. Remember, you have to keep asking if the user provides anything other than string. Then save all those results in a list. Then, make a dictionary with key value pairs of the elements to their occurence in the list. Remember, you can use your previous functions. 
 
-1. **Date Decoder** Write a function that takes a date as an input in the format such as MAR-8-1987. You can see the month, date, and the year. However, the month is a string. Create a dictionary that has key value pairs that maps months to integers. Now use that dictionary to convert the month section in the input to an integer value of the month. 
+2. **Date Decoder** Write a function that takes a date as an input in the format such as MAR-8-1987. You can see the month, date, and the year. However, the month is a string. Create a dictionary that has key value pairs that maps months to integers. Now use that dictionary to convert the month section in the input to an integer value of the month. 
   ```python
   # MAR-8-1987 should return 3-8-1987
   # OCT-1-2014 should return 10-1-2014
   ```
+3. Make a function that takes a sentence and returns a dictionary with key value pairs of words to how many times it occured in the sentence. Before 
 
+  ```python
+  #For example, if the string is "I like apples because apples are so good. I heard oranges are so good too."
+  #It should return a dictionary like this:
+  { "I": 2,
+    "like": 1,
+    "apples": 2,
+    "because": 1,
+    "are": 2,
+    "so": 2,
+    "good": 2,
+    "heard": 1,
+    "oranges": 1,
+    "too": 1 }
+    
+    #This one is tricky and hard but it's really cool.
+  ```
 
 
 
