@@ -33,6 +33,49 @@
 8. Do the fibonacci sequnce :D . You are more than ready!!!
 
 
+##### Learning how manipulate strings and lists
 
+1. Write a function that takes a long string as its parameter. The function should return a list containing two strings. One being the first half of the original string and second being the second half of the original string. For this, use python's slicing functionality with the colons. 
+  ```python
+  #For example, if the string parameter was the following
+  #some_str = "Damn Daniel, back at it again with those white vans!"
+  #The function should return ["Damn Daniel, back at it ag", "ain with those white vans!"]
+  ```
+2. Solve the following:
+..*lst = ["ch", "i", "o", "c", "100"] Print out the last three elements
+..*str = "Failure cannot cope with persistence." Print out "persistence"
+..*str = "asdfd;lkjj sdkdkj slkjsd" Print everything between the spaces
 
+```python
+# Demo Problem
+str = "apple"
+print(str[1:]) # "pple"
+print(str[:-1]) # "appl"
+print(str[2:3]) # "p"
+```
+
+##### Dictionairies... are you ready? 
+
+1. Create a function that takes an empty dict as a parameter. Add your name and profession with the values without hard coding it.
+  ```python
+  # You add key and value pairs to dictionaries like this:
+  # guy = {}
+  # guy["name"] = "Tom"
+  # guy["profession"] = "Golfer"
+  # guy = { "name": "Tom",
+            "profession": "Golfer }
+  ```
+
+2. Create a function that takes in a list as its parameter. It should return a dictionary with keys being the elements and values being the elements' length. 
+  ```python
+  #Sample
+  #If lst = ["charlie", "tango", "Bravo", "Daniel"]
+  #It should return { "charlie": 7, "tango": 5, "Bravo": 5, "Daniel": 6 }
+  /*{ "charlie": 7, 
+      "tango": 5, 
+      "Bravo": 5, 
+      "Daniel": 6 }*/
+  ```
+  
+3. Create function that takes in a 
 
