@@ -42,9 +42,9 @@
   #The function should return ["Damn Daniel, back at it ag", "ain with those white vans!"]
   ```
 2. Solve the following:
-..*lst = ["ch", "i", "o", "c", "100"] Print out the last three elements
-..*str = "Failure cannot cope with persistence." Print out "persistence"
-..*str = "asdfd;lkjj sdkdkj slkjsd" Print everything between the spaces
+  * lst = ["ch", "i", "o", "c", "100"] Print out the last three elements
+  * str = "Failure cannot cope with persistence." Print out "persistence"
+  * str = "asdfd;lkjj sdkdkj slkjsd" Print everything between the spaces
 
 ```python
 # Demo Problem
@@ -112,7 +112,14 @@ print(str[2:3]) # "p"
 
 ##### HYBRID
 
-Write a function that prompts user for input 5 times and saves all those results in a list. Then, 
+1. Write a function that prompts user for input until the user has provided 5 strings. Remember, you have to keep asking if the user provides anything other than string. Then save all those results in a list. Then, make a dictionary with key value pairs of the elements to their occurence in the list. Remember, you can use your previous functions. 
+
+1. **Date Decoder** Write a function that takes a date as an input in the format such as MAR-8-1987. You can see the month, date, and the year. However, the month is a string. Create a dictionary that has key value pairs that maps months to integers. Now use that dictionary to convert the month section in the input to an integer value of the month. 
+  ```python
+  # MAR-8-1987 should return 3-8-1987
+  # OCT-1-2014 should return 10-1-2014
+  ```
+
 
 
 
