@@ -97,7 +97,7 @@ print(str[2:3]) # "p"
 
 1. Write a function that prompts user for input until the user has provided 5 strings. Remember, you have to keep asking if the user provides anything other than string. Then save all those results in a list. Then, make a dictionary with key value pairs of the elements to their occurence in the list. Remember, you can use your previous functions. 
 
-2. **Date Decoder** Write a function that takes a date as an input in the format such as MAR-8-1987. You can see the month, date, and the year. However, the month is a string. Create a dictionary that has key value pairs that maps months to integers. Now use that dictionary to convert the month section in the input to an integer value of the month. 
+2. **Date Decoder** Write a function that takes a date as an input in the format such as MAR-8-1987. Actually prompt the user for the input. Don't put a parameter. You can see the month, date, and the year. However, the month is a string. Create a dictionary that has key value pairs that maps months to integers. Now use that dictionary to convert the month section in the input to an integer value of the month. 
   ```python
   # MAR-8-1987 should return 3-8-1987
   # OCT-1-2014 should return 10-1-2014
@@ -122,5 +122,8 @@ print(str[2:3]) # "p"
   ```
 
 
+##Loop Pairs**
+
+Write a function that takes a string as an input. Then make a two dimensional array of the input's length. So essentially, a square grid with rows and columns of the input length.
 
 
