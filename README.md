@@ -1,6 +1,6 @@
 ## Practice Problems
 
-##### While loops
+#### While loops
 *Remember to use while loops in all the solutions!* <br><br>
 
 
@@ -33,7 +33,7 @@
 8. Do the fibonacci sequnce :D . You are more than ready!!!
 
 
-##### Learning how manipulate strings and lists
+#### Learning how manipulate strings and lists
 
 1. Write a function that takes a long string as its parameter. The function should return a list containing two strings. One being the first half of the original string and second being the second half of the original string. For this, use python's slicing functionality with the colons. 
   ```python
@@ -54,7 +54,7 @@ print(str[:-1]) # "appl"
 print(str[2:3]) # "p"
 ```
 
-##### Dictionairies... are you ready? 
+#### Dictionairies... are you ready? 
 
 1. Create a function that takes an empty dict as a parameter. Add your name and profession with the values without hard coding it.
   ```python
@@ -83,7 +83,7 @@ print(str[2:3]) # "p"
 
 
 
-##### Inputs 
+#### Inputs 
 
 1. Write a function that prompts the user for an input and returns true or false depending on if the the input is a palindrome. (Hint: You can use your pre written functions for the above problems)
 
@@ -93,7 +93,7 @@ print(str[2:3]) # "p"
 
 4. Write a function that prompts the user for a string and returns the reversed string back. Again, try to use the functions you have written for it. 
 
-##### HYBRID
+#### HYBRID
 
 1. Write a function that prompts user for input until the user has provided 5 strings. Remember, you have to keep asking if the user provides anything other than string. Then save all those results in a list. Then, make a dictionary with key value pairs of the elements to their occurence in the list. Remember, you can use your previous functions. 
 
@@ -122,7 +122,7 @@ print(str[2:3]) # "p"
   ```
 
 
-##Loop Pairs**
+####Loop Pairs
 
 Write a function that takes a string as an input. Then make a two dimensional array of the input's length. So essentially, a square grid with rows and columns of the input length.
 
