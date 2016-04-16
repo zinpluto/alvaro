@@ -111,10 +111,9 @@ Return true if the passed string is a valid US phone number.
 The user may fill out the form field any way they choose as long as it is a valid US number. The following are examples of valid formats for US numbers (refer to the tests below for other variants):
 
 ``` python 
-function telephoneCheck(str) {
+def telephoneCheck(str):
   // Good luck!
   return true;
-}
 telephoneCheck("555-555-5555");
 ```
 
@@ -130,8 +129,8 @@ telephoneCheck("555-555-5555");
 13. Design a cash register drawer function checkCashRegister() that accepts purchase price as the first argument (price), payment as the second argument (cash), and cash-in-drawer (cid) as the third argument. cid is a 2D array listing available currency. Return the string "Insufficient Funds" if cash-in-drawer is less than the change due. Return the string "Closed" if cash-in-drawer is equal to the change due.
 
 ``` python
-function checkCashRegister(price, cash, cid):
-  change
+def checkCashRegister(price, cash, cid):
+  change = 0;
   # Here is your change, ma'am.
   return change
 '''
