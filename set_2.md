@@ -110,5 +110,20 @@ Return true if the passed string is a valid US phone number.
 
 The user may fill out the form field any way they choose as long as it is a valid US number. The following are examples of valid formats for US numbers (refer to the tests below for other variants):
 
+``` python 
+function telephoneCheck(str) {
+  // Good luck!
+  return true;
+}
+telephoneCheck("555-555-5555");
+```
 
+12. Create a function that takes a number as a parameter and returns a two dimentional array where all rows and colums are the same length. And the grid could be named after. 
+
+``` python
+[1, 1, 1]
+[1, 1, 1]
+[1, 1, 1]
+
+```
 
