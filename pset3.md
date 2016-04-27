@@ -156,6 +156,15 @@ output: ["charlie", "harlie", "arlie", "rlie", "lie", "ie", "e"] make sure to re
 
 ```
 
+* Write a function that takes in a string as a parameter. Slice it half way and return the string with hyphens between each letter. 
+
+``` python
+input: banana
+
+output: b-a-n #ban is half of banana and there is hyphen between each but not the last one
+
+```
+
 
 
 
