@@ -14,6 +14,8 @@ Convert to (F)ahrenheit or (C)elsius? F
 20 C = 68 F
 
 ```
+---
+
 
 * Loan and payment calculator
 
@@ -69,7 +71,7 @@ Pymt#       Paid       Balance
  12        $ 8.76      $  0.00
 
 ```
-
+---
 * Literary Analysis
 
 **Description**
@@ -78,11 +80,11 @@ Pymt#       Paid       Balance
 
   You plan to write a program that will take a text file as input and return a report listing alphabetically all the words in the file and the number of occurances of each.
 
-
+---
 * Write a program called caysinLatin.py that takes in a text file as an input file. Your program should read the file and change all the vowels in the word to "ay" and write the content to a new file called caysinLatin.txt. 
-
+---
 * Write a function that takes in x, y as parameters both being numbers. Create a two dimensional array of x rows and y columns with values incrementing. 
-
+---
 * Write a function that takes in 10 parameters all being strings. The program should print out each string with its length to the console each having an incrementing id. 
 
 ``` python
@@ -94,7 +96,7 @@ Pymt#       Paid       Balance
 4. hobo 4
 5. jacky 5
 ```
-
+---
 * Write a function that takes in two parameters both being lists. The program should return a new list including both lists, however, each element in both lists have to go one after the other in order. 
 
 ``` python
@@ -106,7 +108,7 @@ second list = ["dog", "cat", "monkey"]
 final list = ["charlie", "dog", "tango", "cat", "bravo", "monkey"]
 
 ```
-
+---
 * Write a function that takes in 3 parameters all being lists. Now do the same as above. 
 
 ``` python
@@ -118,7 +120,7 @@ third = [True, False, False]
 
 Final = ["a", 1, True, "z", 5, False, "b", 3, False]
 ```
-
+---
 * Write a function that takes in a long string, a sentence, as a parameter. The program should check each word and divide it right in the middle and reverse join the words and return the new sentence. 
 
 **Note** If the words are not even, you can round down or up. 
@@ -128,7 +130,7 @@ sentence = "I Like going to the movie"
 
 final = "I keli inggo ot het viemo"
 ```
-
+---
 * Write a function that takes in a string as a parameter. The program should return new string as shown in the following example.
 
 ``` python
@@ -137,7 +139,7 @@ input: "tango"
 output: "tango ango ngo go o"
 
 ```
-
+---
 * Write a function that takes in two parameters both being strings. Convert both into lists and combine them into one big list. Once that is done, join them into a reversed string and then return the string after stripping the first and last letter.
 
 ``` python
@@ -146,7 +148,7 @@ input: mat lib
 output: ilta
 
 ```
-
+---
 * Write a function that takes in a string as an input. The program should return a list containing all the strings in as the following example. 
 **Bonus** reverse the list at the end.
 ``` python
@@ -155,7 +157,7 @@ input: charlie
 output: ["charlie", "harlie", "arlie", "rlie", "lie", "ie", "e"] make sure to reverse this.
 
 ```
-
+---
 * Write a function that takes in a string as a parameter. Slice it half way and return the string with hyphens between each letter. 
 
 ``` python
@@ -164,13 +166,6 @@ input: banana
 output: b-a-n #ban is half of banana and there is hyphen between each but not the last one
 
 ```
-
-
-
-
-
-
-
 
 
 
