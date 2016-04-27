@@ -81,9 +81,13 @@ Pymt#       Paid       Balance
   You plan to write a program that will take a text file as input and return a report listing alphabetically all the words in the file and the number of occurances of each.
 
 ---
+
 * Write a program called caysinLatin.py that takes in a text file as an input file. Your program should read the file and change all the vowels in the word to "ay" and write the content to a new file called caysinLatin.txt. 
+
 ---
+
 * Write a function that takes in x, y as parameters both being numbers. Create a two dimensional array of x rows and y columns with values incrementing. 
+
 ---
 * Write a function that takes in 10 parameters all being strings. The program should print out each string with its length to the console each having an incrementing id. 
 
