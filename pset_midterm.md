@@ -21,35 +21,31 @@
     Look! This is my number 78, 6084, 474552
     
   ```
-  
 2. Create a function that takes in four 2d lists as parameters. Your program should multiply all the corresponding numbers in the rows and return a final matrix of the products. 
-``` python
-  def multiplier(a, b, c, d):
-    return #a matrix/2d list
-    
-  Input:
-    a = [ [1, 2, 3], [5, 3, 2], [4, 3, 2] ]
-    b = [ [2, 3, 1], [4, 4, 4], [2, 7, 3] ]
-    c = [ [2, 3, 4], [2, 3, 4], [2, 1, 1] ]
-    d = [ [2, 2, 2], [3, 3, 3], [1, 1, 1] ]
-    
-  Output: 
-    [ [8, 36, 24], [120, 108, 96], [16, 21, 6] ]
-```
+  ``` python
+    def multiplier(a, b, c, d):
+      return #a matrix/2d list
+      
+    Input:
+      a = [ [1, 2, 3], [5, 3, 2], [4, 3, 2] ]
+      b = [ [2, 3, 1], [4, 4, 4], [2, 7, 3] ]
+      c = [ [2, 3, 4], [2, 3, 4], [2, 1, 1] ]
+      d = [ [2, 2, 2], [3, 3, 3], [1, 1, 1] ]
+      
+    Output: 
+      [ [8, 36, 24], [120, 108, 96], [16, 21, 6] ]
+  ```
 
 3. Create a function that takes in a 2d list as a parameter. The function should sum up all the rows and return a one dimensional list. 
-``` python
-  def rowSum(lst):
-    return # [ #, #, #, # ]
+  ``` python
+    def rowSum(lst):
+      return # [ #, #, #, # ]
+    
+    Input:
+      lst = [ [1, 3, 4], [9, 1, 2], [33, 1, 0], [44, 1, 2] ]
+    
+    Output:
+      [ 8, 12, 34, 47 ]
+  ```
   
-  Input:
-    lst = [ [1, 3, 4], [9, 1, 2], [33, 1, 0], [44, 1, 2] ]
-  
-  Output:
-    [ 8, 12, 34, 47 ]
-```
-
 4. 
-
-
-3.
