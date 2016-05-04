@@ -37,5 +37,19 @@
     [ [8, 36, 24], [120, 108, 96], [16, 21, 6] ]
 ```
 
+3. Create a function that takes in a 2d list as a parameter. The function should sum up all the rows and return a one dimensional list. 
+``` python
+  def rowSum(lst):
+    return # [ #, #, #, # ]
+  
+  Input:
+    lst = [ [1, 3, 4], [9, 1, 2], [33, 1, 0], [44, 1, 2] ]
+  
+  Output:
+    [ 8, 12, 34, 47 ]
+```
+
+4. 
+
 
 3.
