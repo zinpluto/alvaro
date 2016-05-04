@@ -180,6 +180,62 @@
     sym([1, 1, 2, 5], [2, 2, 3, 5], [3, 4, 5, 5]) should contain only three elements.
     sym([3, 3, 3, 2, 5], [2, 1, 5, 7], [3, 4, 6, 6], [1, 2, 3]) should return [2, 3, 4, 6, 7].
   ```
-2. 
+2. Compare and update the inventory stored in a 2D array against a second 2D array of a fresh delivery. Update the current existing inventory item quantities (in arr1). If an item cannot be found, add the new item and quantity into the inventory array. The returned inventory array should be in alphabetical order by item.
+  ``` python
+    
+    def updateInventory(arr1, arr2):
+        #All inventory must be accounted for or you're fired!
+        return arr1
+        # Example inventory lists
+        curInv = [
+        [21, "Bowling Ball"],
+        [2, "Dirty Sock"],
+        [1, "Hair Pin"],
+        [5, "Microphone"]
+        ]
+    
+        newInv = [
+        [2, "Hair Pin"],
+        [3, "Half-Eaten Apple"],
+        [67, "Bowling Ball"],
+        [7, "Toothpaste"]
+        ]
+    '''
+    updateInventory(curInv, newInv)
+  
+    updateInventory() should return an array.
+    updateInventory([[21, "Bowling Ball"], [2, "Dirty Sock"], [1, "Hair Pin"], [5, "Microphone"]], [[2, "Hair Pin"], [3, "Half-Eaten Apple"], [67, "Bowling Ball"], [7, "Toothpaste"]]).length should return an array with a length of 6.
+    
+    updateInventory([[21, "Bowling Ball"], [2, "Dirty Sock"], [1, "Hair Pin"], [5, "Microphone"]], [[2, "Hair Pin"], [3, "Half-Eaten Apple"], [67, "Bowling Ball"], [7, "Toothpaste"]]) should return [[88, "Bowling Ball"], [2, "Dirty Sock"], [3, "Hair Pin"], [3, "Half-Eaten Apple"], [5, "Microphone"], [7, "Toothpaste"]].
+    
+    updateInventory([[21, "Bowling Ball"], [2, "Dirty Sock"], [1, "Hair Pin"], [5, "Microphone"]], []) should return [[21, "Bowling Ball"], [2, "Dirty Sock"], [1, "Hair Pin"], [5, "Microphone"]].
+    
+    updateInventory([], [[2, "Hair Pin"], [3, "Half-Eaten Apple"], [67, "Bowling Ball"], [7, "Toothpaste"]]) should return [[67, "Bowling Ball"], [2, "Hair Pin"], [3, "Half-Eaten Apple"], [7, "Toothpaste"]].
+    
+    updateInventory([[0, "Bowling Ball"], [0, "Dirty Sock"], [0, "Hair Pin"], [0, "Microphone"]], [[1, "Hair Pin"], [1, "Half-Eaten Apple"], [1, "Bowling Ball"], [1, "Toothpaste"]]) should return [[1, "Bowling Ball"], [0, "Dirty Sock"], [1, "Hair Pin"], [1, "Half-Eaten Apple"], [0, "Microphone"], [1, "Toothpaste"]].
+    '''
+  ```
+3. Return the number of total permutations of the provided string that don't have repeated consecutive letters. Assume that all characters in the provided string are each unique. For example, aab should return 2 because it has 6 total permutations (aab, aab, aba, aba, baa, baa), but only 2 of them (aba and aba) don't have the same letter (in this case a) repeating.
+  ``` python
+    
+    def permAlone(str):
+      return str
+    
+    
+    permAlone('aab')
+  '''
+    permAlone("aab") should return a number.
+    permAlone("aab") should return 2.
+    permAlone("aaa") should return 0.
+    permAlone("aabb") should return 8.
+    permAlone("abcdefa") should return 3600.
+    permAlone("abfdefa") should return 2640.
+    permAlone("zzzzzzzz") should return 0.
+    permAlone("a") should return 1.
+    permAlone("aaab") should return 0.
+    permAlone("aaabb") should return 12.
+  '''
+  ```
+4. 
 
 2. 
