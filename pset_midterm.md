@@ -48,4 +48,36 @@
       [ 8, 12, 34, 47 ]
   ```
   
-4. 
+4. Write a function that takes in two parameters both being 2d lists. Go through each list and return a list containing total postive numbers, total negative numbers, total even numbers, and total odd numbers. #Remember: negative numbers can be even and odds as well.
+  ``` python
+    def jackedCounter(lst1, lst2):
+      return [#, #, #, #]
+      
+    Input:
+      lst1 = [ [44, 22, -23], [23, 11, 2], [3, 7, -9] ]
+      lst2 = [ [66, 33, 22], [999, -2, -3], [16, 92, -33] ]
+    
+    Output:
+      final = [13, 5, 8, 10]
+  ```
+
+5. Write a function that takes in a lst as a parameter. Your function should print out the factorial for each number in the list. Once that is done, also return a 2d list which contains first list as the default list and second as the factorial list.
+  ``` python
+    def factorPrinter(lst):
+      print #each factorial for each num
+    
+    Input: 
+      lst = [ 4, 2, 5, 6, 9, 12 ]
+    
+    Output:
+      24
+      2
+      120
+      720
+      60480
+      479001600
+      
+      [ [4, 2, 5, 6, 9, 12], [24, 2, 120, 720, 60480, 479001600] ]
+  ```
+  
+6. 
