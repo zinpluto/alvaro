@@ -252,3 +252,28 @@
     makeFriendlyDates(['2016-07-01', '2016-07-04']);
 
   ```
+  
+### I\O problems
+1. Create a function that takes a filepath as a parameter. Write a function that writes a new text file named vowelCounter.txt which contains the count of vowels for each line. 
+  ```python
+    Output :
+      "the fox jumped over the fence" => 9
+      "old is gold" => 3
+      "apple is red" => 4
+  ```
+2. Write a program that takes a file path as a parameter. Then writes a new file called reversed.txt. Your function should reverse each word in the old file and write the new file.
+3. Create a function that takes in a number as a parameter and writes a half pyramid to a new file with that num's height.
+  ``` python
+    ##
+    ###
+    ####
+    #####
+    ######
+    #######
+    ########
+    #########
+    ##########
+  ```
+  
+
+
