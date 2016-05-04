@@ -144,4 +144,23 @@
       The people who have a blood type of o+ are ["tenzin", "Alvaro"].
   ```
   
+### Other
+* Create a function that takes in a list and returns True if it's strictly increasing or decreasing. Else, return false.
+  ``` python
+    Input:
+      lst = [1, 2, 3]
+    Output: 
+      True
+    
+    Input:
+      lst = [2, 4, 3]
+    Output:
+      False
+    
+    Input:
+      lst = [2, 3, 99, 99]
+    Output:
+      False
+  ```
+
 2. 
