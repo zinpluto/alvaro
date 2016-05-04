@@ -94,4 +94,20 @@
     Output:
       "IdeERRORs ERRORre worthless. ERRORction is whERRORt mERRORtters."
   ```
-2. 
+2. Create a function that finds alvaro. That's right. The function should take a string(long sentence) as an input. Find how many times alvaro occurs in the sentence. Try without using .split() method if you can. You thought it was easy. 
+  ``` python
+    def findingAlvaro():
+      return #someNum
+      
+    Input: 
+      "The other day I saw Alvaro watching a video called Alvaro is coding. Turns out Alvaro has a twin. Woah! His name is Alvaro too. Turns out this alvaro has a cousin named alvaro who has a toddler named alvaro."
+    
+    Output:
+      I found 7 alvaros. That's crazy!
+  ```
+3. Create a function that takes in a list of full names. Print out the initials of each name to the console.
+  ```
+    Input: 
+      lst = ["tenzin phuljung", "alvaro font Junior", "baby alvaro senior", "Daniel Radcliffe", "Robert Downey Junior"]
+  ```
+4. 
