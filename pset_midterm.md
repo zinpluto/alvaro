@@ -105,9 +105,43 @@
     Output:
       I found 7 alvaros. That's crazy!
   ```
-3. Create a function that takes in a list of full names. Print out the initials of each name to the console.
+3. Create a function that takes in a list of full names. Print out the initials of each name to the console. BONUS: Make the initials capitalized.
   ```
+    def initialsPrinter():
+      print #each initials
     Input: 
       lst = ["tenzin phuljung", "alvaro font Junior", "baby alvaro senior", "Daniel Radcliffe", "Robert Downey Junior"]
+    
+    Output:
+      tp
+      afj
+      bas
+      dr
+      rdj
   ```
-4. 
+***
+
+### Blood Problems
+
+1. You are a surgeon in a very reputable hospital. 5 people are being transferred to the hospital for surgery. They have had severe blood loss. The hospital is ran out of blood. You need donors. And you think of a brilliant idea since you can code as well. So you set out to find the hospital's employees who have their blood type of o+ positive which can be transferred to anybody without any problem. So, you set out go through the hospital's database of employees which also has their description and blood types. Create a function that finds how many people have blood type of o postive and returns  a list of names.
+  ``` python
+    def bloodFinder(lst):
+      return #[name, name, name]
+      
+    Input: 
+      dict = [
+      {name: "Tenzin",
+       blood-type: "o+" },
+      {name: "Alvaro",
+       blood-type: "o+" },
+      {name: "Damn Daniel",
+       blood-type: "A-" },
+      {name: "Batman",
+       blood-type: "B+" }
+      ]
+      
+    Output:
+      The people who have a blood type of o+ are ["tenzin", "Alvaro"].
+  ```
+  
+2. 
