@@ -79,5 +79,19 @@
       
       [ [4, 2, 5, 6, 9, 12], [24, 2, 120, 720, 60480, 479001600] ]
   ```
-  
-6. 
+***
+
+### Let's do some strings
+1. Create a function that asks the user for two inputs. The first input should take a letter. The second input should be a sentence. If the sentence has the letter in it, your program should replace each of that with 'ERROR' and return it as a string.
+  ``` python
+    def errorFinder():
+      return #some string
+      
+    Input:
+      "a"
+      "Ideas are worthless. Action is what matters."
+    
+    Output:
+      "IdeERRORs ERRORre worthless. ERRORction is whERRORt mERRORtters."
+  ```
+2. 
