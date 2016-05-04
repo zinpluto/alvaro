@@ -23,7 +23,7 @@
   ```
   
 2. Create a function that takes in four 2d lists as parameters. Your program should multiply all the corresponding numbers in the rows and return a final matrix of the products. 
-```
+``` python
   def multiplier(a, b, c, d):
     return #a matrix/2d list
     
