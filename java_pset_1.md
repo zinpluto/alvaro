@@ -171,3 +171,12 @@
 * **Parameter**: values that can be specified when creating an object or calling a method
 * **Return value**: specifies the data type that a method will return after it runs
 * **Inheritance**: allows one class to use functionality defined in another class
+
+
+Create a class called Gun. This class should have a method called "checkAccuracy" which on called upon says "Your accuracy sucks. You have to train harder.".
+
+Create another class called Revolver. The class should extend *from* Gun class. Create two instance variables: magSize and damage and initialize them to 6 and 80 respectively.  Create a method called checkMag() which on called upon gives you the current magsize. Create a method shoot() which on called upon says "Bang Bang" and also reduces the magsize by 1. 
+
+Now Create a main method inside the revolver class and create an instance object of Revolver class called alvaroMagnum inside of this main method. Call the method shoot() on the alvaroMagnum object three times. Then call the method checkmag() on alvaroMagnum. 
+
+Now try to modify more and add more methods. You can also try creating more weapons like machine guns, submachine guns, assault rifles, snipers etc. 
